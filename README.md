@@ -12,3 +12,6 @@
 - go to aws console
 - Select ECS(Elastic container service)
 - create the clustrer
+
+## Create ECR for Docker Image:
+- go to aws console
