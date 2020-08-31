@@ -15,3 +15,9 @@
 
 ## Create ECR for Docker Image:
 - go to aws console
+
+## Install the AWS CLI version 2 on Linux:
+- curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+- unzip awscliv2.zip
+- sudo ./aws/install
+- link : https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
