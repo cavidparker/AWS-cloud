@@ -27,6 +27,7 @@
 - AWS Secret Access Key [None]:
 - Default region name [None]: us-east-1
 - Default output format [None]: json
+## Push commands for seenusdockerrig :
 - aws ecr get-login-password --region us-west-2 | docker login --username AWS --password-stdin 996111791879.dkr.ecr.us-west-2.amazonaws.com
 - docker tag musa101/flask_app:latest   996111791879.dkr.ecr.us-west-2.amazonaws.com/seenusdockerrig:latest
 -  docker push 996111791879.dkr.ecr.us-west-2.amazonaws.com/seenusdockerrig:latest The push refers to repository [996111791879.dkr.ecr.us-west-2.amazonaws.com/seenusdockerrig]
