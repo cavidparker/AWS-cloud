@@ -50,6 +50,12 @@
 - Create the task
 
 ## Create the service
+- Go to Task defination
+- click Actions
+- Select create service
+- select Launch type EC2
+- add service name
+- add number of tasks
 
 
 
