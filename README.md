@@ -33,4 +33,14 @@
 -  docker push 996111791879.dkr.ecr.us-west-2.amazonaws.com/seenusdockerrig:latest The push refers to repository [996111791879.dkr.ecr.us-west-2.amazonaws.com/seenusdockerrig]
 
 
+## How to change Port Number:
+
+- Go to Ec2 Instance
+- Click security Group
+- Inbound Rules
+- Edit Inbound Rules
+- Change Port 80 to 5000 
+
+
+
 
