@@ -67,6 +67,11 @@
 - Edit Inbound Rules
 - Change Port 80 to 5000 
 
+## How to Open flask App
+- Go to EC2 instance
+- copy IPV4 public IP 3.12.125.55:5000 (add :5000)
+- then search
+
 
 
 
