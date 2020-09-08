@@ -32,6 +32,26 @@
 - docker tag musa101/flask_app:latest   996111791879.dkr.ecr.us-west-2.amazonaws.com/seenusdockerrig:latest
 -  docker push 996111791879.dkr.ecr.us-west-2.amazonaws.com/seenusdockerrig:latest The push refers to repository [996111791879.dkr.ecr.us-west-2.amazonaws.com/seenusdockerrig]
 
+## Create a task defination :
+- Go to ECR
+- Go to Task definations
+- Create a new task definations
+- Use EC2
+- Name the Task defination
+- Set the task memory(512 MB or 256)
+- set the Task CPU (512 or 256)
+- Add container
+- add the container name
+- Add image to the ECR
+- Add image to the URL
+- port mapping
+- container port (depends on your docker images 5000)
+- add Host Port( 5000)
+- Create the task
+
+## Create the service
+
+
 
 ## How to change Port Number:
 
